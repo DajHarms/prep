@@ -28,8 +28,6 @@ namespace code.utility.iteration
         visitor.should().received(x => x.process(Arg<int>.Is.Anything)).Times(10);
 
       static IProcessAn<int> visitor;
-        
-        
     }
   }
 }
